@@ -1,5 +1,5 @@
 async function getGif(key){
-    const res = await axios.get(`http://api.giphy.com/v1/gifs/search?q=${key}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`);
+    const res = await axios.get(`https://api.giphy.com/v1/gifs/search?q=${key}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`);
     //Added a random number to retrieve a random image from the array
     //of 50 that appears with the above URL.
     const randNum = Math.floor(Math.random() * 50);
