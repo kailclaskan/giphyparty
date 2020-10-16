@@ -5,6 +5,7 @@ async function getGif(key){
     const randNum = Math.floor(Math.random() * 50);
     //When the random gif is loaded grab the URL to use as src.
     const imgUrl = res.data.data[randNum].images.fixed_height.url;
+    console.log(imgUrl);
     //Create gif on page using Src above.
     createGif(imgUrl);
 }
