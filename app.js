@@ -17,7 +17,7 @@ function createGif(url){
     img.setAttribute('src', url);
     //Added bootstrap to the html to make it look nicer.
     //Added margin
-    img.className = 'mx-3 my-2';
+    img.className = 'my-2 col-3';
     //Added the img to the page.
     imgCont.append(img);
     //Cleared the search term.
